@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://zerua.capital
+
+# Sitemaps
+Sitemap: https://zerua.capital/sitemap.xml

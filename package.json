@@ -1,0 +1,40 @@
+{
+  "name": "zerua-capital",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.1",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0",
+    "framer-motion": "^11.0.3",
+    "lucide-react": "^0.330.0",
+    "next": "^14.2.29",
+    "postcss": "^8.4.35",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.16.0",
+    "react-tsparticles": "^2.12.2",
+    "sharp": "^0.34.2",
+    "tailwindcss": "^3.4.1",
+    "tsparticles": "^3.0.2",
+    "typescript": "^5.3.3"
+  },
+  "description": "Sitio web moderno y dinámico para Zerua Capital, especializado en servicios de Due Diligence y Escrow.",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@next/bundle-analyzer": "^15.4.0-canary.51",
+    "@types/node": "^20.11.16"
+  }
+}

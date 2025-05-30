@@ -1,0 +1,187 @@
+.procesoSection {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+  margin-top: 64px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 700px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.card {
+  background: linear-gradient(145deg, #ffffff, #f5f9ff);
+  border-radius: 20px;
+  box-shadow:
+    0 16px 48px rgba(0, 40, 100, 0.13),
+    0 2px 8px rgba(0, 40, 100, 0.08);
+  padding: 32px 24px 56px 24px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  transition:
+    box-shadow 0.3s,
+    transform 0.3s;
+  min-height: 420px;
+}
+
+.card:hover {
+  box-shadow:
+    0 24px 60px rgba(58, 123, 213, 0.22),
+    0 4px 16px rgba(58, 123, 213, 0.1);
+  transform: translateY(-10px) scale(1.03);
+}
+
+.iconCircle {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 16px rgba(58, 123, 213, 0.13);
+}
+
+.zeruaLogo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1a3a5f;
+  font-family: "Inter", "SF Pro", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.title {
+  color: #1a3a5f;
+  font-size: 1.18rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 0;
+  letter-spacing: -0.5px;
+}
+
+.desc {
+  color: #5c7a99;
+  font-size: 1rem;
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.list li {
+  display: flex;
+  align-items: flex-start;
+  color: #5c7a99;
+  font-size: 0.98rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.arrow {
+  color: #3a7bd5;
+  font-size: 1.1em;
+  margin-right: 8px;
+  margin-top: 2px;
+}
+
+.moreBtn {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background: none;
+  border: none;
+  color: #3a7bd5;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 0;
+}
+
+.moreBtn:hover {
+  color: #1a3a5f;
+  text-decoration: underline;
+}
+
+.ctaSection {
+  text-align: center;
+  margin: 0 auto 0 auto;
+  max-width: 600px;
+  padding-bottom: 40px;
+}
+
+.ctaTitle {
+  color: #1a3a5f;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+  letter-spacing: -1px;
+}
+
+.ctaSubtitle {
+  color: #5c7a99;
+  font-size: 1.15rem;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+.ctaBtn {
+  background: linear-gradient(to right, #3a7bd5, #1a3a5f);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  box-shadow: 0 4px 16px rgba(58, 123, 213, 0.13);
+  transition:
+    background 0.2s,
+    box-shadow 0.2s,
+    filter 0.2s;
+}
+
+.ctaBtn:hover {
+  filter: brightness(1.08);
+  box-shadow: 0 8px 28px rgba(58, 123, 213, 0.18);
+}
+
+.cardGradient0 {
+  background: linear-gradient(135deg, #dbeafe 0%, #fff 60%, #ede9fe 100%);
+}
+.cardGradient1 {
+  background: linear-gradient(135deg, #cffafe 0%, #fff 60%, #dbeafe 100%);
+}
+.cardGradient2 {
+  background: linear-gradient(135deg, #bbf7d0 0%, #fff 60%, #dbeafe 100%);
+}
+.cardGradient3 {
+  background: linear-gradient(135deg, #ede9fe 0%, #fff 60%, #dbeafe 100%);
+}
+.cardGradient4 {
+  background: linear-gradient(135deg, #dbeafe 0%, #fff 60%, #cffafe 100%);
+}
+.cardGradient5 {
+  background: linear-gradient(135deg, #dbeafe 0%, #fff 60%, #bbf7d0 100%);
+}
